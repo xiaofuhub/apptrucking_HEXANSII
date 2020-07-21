@@ -1,14 +1,14 @@
-HA$PBExportHeader$w01_test001.srw
+HA$PBExportHeader$w_hex_004.srw
 forward
-global type w01_test001 from window
+global type w_hex_004 from window
 end type
-type cb_1 from commandbutton within w01_test001
+type cb_1 from commandbutton within w_hex_004
 end type
 end forward
 
-global type w01_test001 from window
-integer width = 4754
-integer height = 1980
+global type w_hex_004 from window
+integer width = 3566
+integer height = 1648
 boolean titlebar = true
 string title = "Untitled"
 boolean controlmenu = true
@@ -20,20 +20,20 @@ string icon = "AppIcon!"
 boolean center = true
 cb_1 cb_1
 end type
-global w01_test001 w01_test001
+global w_hex_004 w_hex_004
 
-on w01_test001.create
+on w_hex_004.create
 this.cb_1=create cb_1
 this.Control[]={this.cb_1}
 end on
 
-on w01_test001.destroy
+on w_hex_004.destroy
 destroy(this.cb_1)
 end on
 
-type cb_1 from commandbutton within w01_test001
-integer x = 1632
-integer y = 840
+type cb_1 from commandbutton within w_hex_004
+integer x = 1093
+integer y = 552
 integer width = 402
 integer height = 112
 integer taborder = 10
