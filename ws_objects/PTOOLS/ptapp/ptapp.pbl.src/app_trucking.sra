@@ -169,7 +169,7 @@ event close;//@(text)(recreate=yes)<Body>
 gnv_app.Event pfc_Close()
 destroy gnv_bcmmgr  // switched the following two destroys
 DESTROY gnv_app  
-//@(text)--00
+//@(text)--0000
 
 end event
 
