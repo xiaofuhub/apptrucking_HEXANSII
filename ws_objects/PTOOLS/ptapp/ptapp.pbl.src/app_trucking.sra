@@ -170,7 +170,8 @@ gnv_app.Event pfc_Close()
 destroy gnv_bcmmgr  // switched the following two destroys
 DESTROY gnv_app  
 //@(text)--0000
-//12 1230
+//jk
+
 
 end event
 
