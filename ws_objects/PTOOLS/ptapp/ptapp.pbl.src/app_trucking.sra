@@ -171,7 +171,7 @@ destroy gnv_bcmmgr  // switched the following two destroys
 DESTROY gnv_app  
 //@(text)--0000
 //<<<<<<< HEAD
-//jkll
+//jkll0
 
 end event
 
