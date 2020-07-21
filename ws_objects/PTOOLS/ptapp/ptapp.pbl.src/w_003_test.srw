@@ -32,8 +32,8 @@ destroy(this.cb_1)
 end on
 
 type cb_1 from commandbutton within w_003_test
-integer x = 709
-integer y = 548
+integer x = 1266
+integer y = 608
 integer width = 402
 integer height = 112
 integer taborder = 10
